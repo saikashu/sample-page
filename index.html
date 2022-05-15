@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>Tasting Cars</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Cars">
+<meta name="Description" content="Tasting the cars">
+<link rel="stylesheet" href="assets/css/cssreset-min.css"/>
+<link rel="stylesheet" href="assets/css/style.css">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-logo">Logo</div>
+    <div class="header-button">
+      <a href="">
+        お気に入り一覧
+      </a>
+    </div>
+    <ul class="header-menu">
+      <li><a href="">HOME</a></li>
+      <li><a href="">検索</a></li>
+      <li><a href="">お気に入り</a></li>
+      <li><a href="">お知らせ</a></li>
+      <li><a href="">サービスについて</a></li>
+    </ul>
+  </header>
+  <iframe src="assets/html/slider1.html" width="100%" height="200"></iframe>
+
+  <main>
+    <h1>オススメの新型車(仮)</h1>
+    <p>説明文が入ります。ダミーテキストダミーテキスト</p>
+  </main>
+
+  <!-- スライダーのコンテナ -->
+  <div class="swiper">
+    <!-- 必要に応じたwrapper -->
+    <div class="swiper-wrapper">
+      <!-- スライド -->
+      <div class="swiper-slide">
+        <iframe src="assets/html/slider2-1.html" width="120" height="150"     class="slider2-iframe"></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe src="assets/html/slider2-2.html" width="120" height="150"     class="slider2-iframe"></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe src="assets/html/slider2-3.html" width="120" height="150"     class="slider2-iframe"></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe src="assets/html/slider2-4.html" width="120" height="150"     class="slider2-iframe"></iframe>
+      </div>
+      <div class="swiper-slide">
+        <iframe src="assets/html/slider2-5.html" width="120" height="150"     class="slider2-iframe"></iframe>
+      </div>
+      
+    </div>
+    <!-- 必要に応じてナビボタン -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <div class="container">
+    <div class="left-container">
+      <div class="choice">
+        <h2 class="choice-title">車種から探す</h2>
+          <div class="models-line">
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car1.png">
+                <p>軽自動車</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car2.png">
+                <p>コンパクトカー</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car3.png">
+                <p>ミニバン</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+          </div>
+          <div class="models-line">
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car4.png">
+                <p>セダン</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car5.png">
+                <p>クーペ</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car6.png">
+                <p>ステーションワゴン</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+          </div>
+          <div class="models-line">
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car7.png">
+                <p>SUV・クロカン</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car8.png">
+                <p>オープンカー</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe">
+              <div class="picframe-child">
+                <img src="assets\img\catalog\content\car9.png">
+                <p>ワンボックス</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+          </div>
+        <h2 class="option-search">オプション検索</h2>
+        <div class = "option-container">
+          <div class="option-set">
+            <p>メーカー</p>
+            <div class="selects">
+              <select name="maker">
+                <option value="nissan">日産</option>
+                <option value="toyota">トヨタ</option>
+                <option value="honda">ホンダ</option>
+                <option value="suzuki">スズキ</option>
+                <option value="subaru">スバル</option>
+              </select>
+            </div>
+          </div>
+          <div class="option-set">
+            <p>排気量</p>
+            <div class="selects">
+              <select name="maker">
+                <option value="660">660cc</option>
+                <option value="1000">1000cc</option>
+                <option value="1500">1500cc</option>
+                <option value="2000">2000cc</option>
+                <option value="3000">3000cc</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="btn-toggle-container">
+          <p>AT/MT</p>
+          <span class="btn-toggle btn1">
+            <input type="checkbox" name="" id="switch">
+            <label for="switch"></label>
+          </span>
+        </div>
+        <div class="search-button">
+          <a href="">
+            この条件で探す
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="right-container">
+      <div class="choice2">
+      <h2 class="choice-title">メーカーから探す</h2>
+        <div class= "option-container2">
+          <div class="option-set">
+            <p>メーカー</p>
+            <div class="selects">
+              <select name="maker">
+                <option value="nissan">日産</option>
+                <option value="toyota">トヨタ</option>
+                <option value="honda">ホンダ</option>
+                <option value="suzuki">スズキ</option>
+                <option value="subaru">スバル</option>
+              </select>
+            </div>
+          </div>
+          <div class="option-set">
+            <p>車種</p>
+            <div class="selects">
+              <select name="models">
+                <option value="軽自動車">軽自動車</option>
+                <option value="コンパクトカー">コンパクトカー</option>
+                <option value="ミニバン">ミニバン</option>
+                <option value="セダン">セダン</option>
+                <option value="クーペ">クーペ</option>
+                <option value="ステーションワゴン">ステーションワゴン</option>
+                <option value="SUV・クロカン">SUV・クロカン</option>
+                <option value="オープンカー">オープンカー</option>
+                <option value="ワンボックス">ワンボックス</option>
+              </select>
+            </div>
+          </div>
+        </div>
+          <div class="models-line2">
+            <div class="picframe2">
+              <div class="picframe-child2">
+                <img src="assets\img\catalog\content\car1.png">
+                <p>デイズ ルークス</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe2">
+              <div class="picframe-child2">
+                <img src="assets\img\catalog\content\car2.png">
+                <p>デイズ</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+            <div class="picframe2">
+              <div class="picframe-child2">
+                <img src="assets\img\catalog\content\car3.png">
+                <p>クリッパー</p>
+                <input type="checkbox" name="ck01" value="1">
+              </div>
+            </div>
+          </div>
+        <h2 class="option-search">オプション検索</h2>
+        <div class = "option-container">
+          <div class="option-set2">
+            <p>排気量</p>
+            <div class="selects2">
+              <select name="cc">
+                <option value="660">660cc</option>
+                <option value="1000">1000cc</option>
+                <option value="1500">1500cc</option>
+                <option value="2000">2000cc</option>
+                <option value="3000">3000cc</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="btn-toggle-container2">
+          <p>AT/MT</p>
+          <span class="btn-toggle2 btn2">
+            <input type="checkbox" name="" id="switch">
+            <label for="switch"></label>
+          </span>
+        </div>
+        <div class="search-button">
+          <a href="">
+            この条件で探す
+          </a>
+        </div>
+      </div>
+      <div class="free-choice">
+        <h2 class="choice-title">フリーワード検索</h2>
+        <form id="form1" action="" method="get">
+          <input id="sbox1" name="" type="text">
+        </form>
+        <div class="search-button">
+          <a href="">
+            検索
+          </a>
+        </div>
+      </div>      
+    </div>
+  </div>
+  <div class="news">
+    <div class="news-list">
+      <h2 class="news-title">お知らせ</h2>
+      <a href="" class="list">一覧はこちら</a>
+    </div>
+    <div class="news-in">
+      <a href="" class="news-text">
+        <img src="assets\img\icon\delimiter.png" class="bar">
+        2017/01/01<br>
+        タイトルが入ります。ダミーテキストダミーテキストダミーテキスト<br>
+        <img src="assets\img\icon\arrowRight.png" class="news-arrow"></a>
+      <a href="" class="news-text">
+        <img src="assets\img\icon\delimiter.png" class="bar">
+        2017/01/01<br>
+        タイトルが入ります。ダミーテキストダミーテキストダミーテキスト<br>
+        <img src="assets\img\icon\arrowRight.png" class="news-arrow"></a>
+      <a href="" class="news-text">
+        <img src="assets\img\icon\delimiter.png" class="bar">
+        2017/01/01<br>
+        タイトルが入ります。ダミーテキストダミーテキストダミーテキスト<br>
+        <img src="assets\img\icon\arrowRight.png" class="news-arrow"></a>
+    </div>
+  </div>
+  <div class="pagetop-container">
+    <p class="pagetop" style="display: block;">
+    <a href="#">
+    <img src="assets\img\icon\backToTop.png">
+    </a>
+    </p>
+  </div>
+
+  <footer>
+    <div class="footer-left">
+      <div class="footer-logo">logo</div>
+      <p>〒000-0000</p>
+      <p>○○県○○市○○○○0-0-0</p>
+      <p>○○ビル ○F</p>
+    </div>
+    <div class="footer-right">
+      <ul>
+        <li><a href="">試乗車検索</a></li>
+        <li><a href="">お気に入り一覧</a></li>
+        <li><a href="">お知らせ</a></li>
+      </ul>
+      <ul>
+        <li><a href="">サービス</a></li>
+        <li><a href="">プライバシーポリシー</a></li>
+        <li><a href="">利用規約</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="assets/js/menu.js"></script>
+</body>
+</html>

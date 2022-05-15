@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<title>Tasting Cars</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="Cars">
+<meta name="Description" content="Tasting the cars">
+<link rel="stylesheet" href="../css/cssreset-min.css"/>
+<link rel="stylesheet" href="../css/slider1.css">
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+/>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="../js/jquery-3.1.1.min.js"></script>
+</head>
+
+    <!-- スライダーのコンテナ -->
+    <div class="swiper">
+      <!-- 必要に応じたwrapper -->
+      <div class="swiper-wrapper">
+        <!-- スライド -->
+        <div class="swiper-slide">サンプルテキスト</div>
+        <div class="swiper-slide">サンプルテキスト</div>
+        <div class="swiper-slide">サンプルテキスト</div>
+        <div class="swiper-slide">サンプルテキスト</div>
+        <div class="swiper-slide">サンプルテキスト</div>
+      </div>
+      <!-- 必要に応じてページネーション -->
+      <div class="swiper-pagination"></div>
+    </div>
+  
+    <script>
+    const swiper = new Swiper(".swiper", {
+      loop: true,
+      // ページネーションが必要なら追加
+      pagination: {
+        el: ".swiper-pagination"
+      },
+      // ナビボタンが必要なら追加
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+    </script>
+
+</body>
+</html>
